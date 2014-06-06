@@ -1,0 +1,111 @@
+.icon{background-image:url('../img/t.png?20140430150456')}
+.icon--arrowB{
+    background-position: -129px -81px;
+    width: 8px;
+    height: 5px;
+}
+.icon--arrowT{
+    background-position: -131px -76px;
+    width: 8px;
+    height: 5px;
+}
+.icon--bad{
+    background-position: -25px -51px;
+    width: 22px;
+    height: 22px;
+}
+.icon--clear{
+    background-position: 0px -51px;
+    width: 25px;
+    height: 30px;
+}
+.icon--close{
+    background-position: -51px 0px;
+    width: 33px;
+    height: 41px;
+}
+.icon--fav{
+    background-position: -47px -51px;
+    width: 22px;
+    height: 22px;
+}
+.icon--favOn{
+    background-position: -69px -51px;
+    width: 22px;
+    height: 22px;
+}
+.icon--good{
+    background-position: -91px -51px;
+    width: 22px;
+    height: 22px;
+}
+.icon--guide{
+    background-position: -84px 0px;
+    width: 33px;
+    height: 41px;
+}
+.icon--myask{
+    background-position: -22px -81px;
+    width: 22px;
+    height: 22px;
+}
+.foot_item--jsOn .icon--myask{
+    background-position: -44px -81px;
+}
+.icon--news{
+    background-position: 0px -81px;
+    width: 22px;
+    height: 22px;
+}
+.foot_item--jsOn .icon--news{
+    background-position: -88px -81px;
+}
+.icon--online{
+    background-position: -117px 0px;
+    width: 22px;
+    height: 22px;
+}
+.icon--onlineOn{
+    background-position: -117px -22px;
+    width: 22px;
+    height: 22px;
+}
+.icon--question{
+    background-position: -117px -44px;
+    width: 22px;
+    height: 22px;
+}
+.icon--questionOn{
+    background-position: -66px -81px;
+    width: 22px;
+    height: 22px;
+}
+.icon--search{
+    background-position: -117px -66px;
+    width: 14px;
+    height: 15px;
+}
+.icon--triL0{
+    background-position: -131px -66px;
+    width: 4px;
+    height: 10px;
+}
+.icon--triL1{
+    background-position: 0px -103px;
+    width: 14px;
+    height: 14px;
+}
+.icon--triR0{
+    background-position: -117px -81px;
+    width: 12px;
+    height: 15px;
+}
+.icon--warn{
+    background-position: 0px 0px;
+    width: 51px;
+    height: 51px;
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (min-resolution: 240dpi) {.icon{background-image:url('../img/t@2x.png?20140430150456');
+background-size: 139px 117px;}}

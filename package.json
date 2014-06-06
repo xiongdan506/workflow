@@ -1,0 +1,22 @@
+{
+  "name": "project-name",
+  "version": "0.1.0",
+  "description": "Example project to demonstrate Grunt.",
+  "author": {
+    "name": "xiongdan506",
+    "email": "xiongdan506@gmail.com"
+  },
+  "private": true,
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "load-grunt-config": "*",
+    "underscore": "~1.4.2",
+    "json2css": "~4.2.0"
+  },
+  "devDependencies": {
+    "grunt-browser-sync": "^0.8.2",
+    "grunt-contrib-jshint": ">=0.7.0",
+    "spritesmith": "~0.17.0",
+    "grunt-contrib-imagemin": "0.7.1"
+  }
+}

@@ -1,0 +1,30 @@
+//http://www.jshint.com/docs/options/
+
+{
+  "bitwise": true,                //true 禁止位运算
+  "camelcase": false,             //true 禁止驼峰命名
+  "curly": true,                  //true 强制大括号块循环和条件
+  "eqeqeq": true,                 //true 禁止==或者!=,强制===或者!==
+  "forin": true,                  //true forin循环强制过滤原型链上的属性
+  "freeze": true,                 //true 禁止覆盖如Array,Date等原生对象的原型
+  "immed": true,                  //true 禁止匿名函数直接调用，禁(function(){})()
+  "indent": 4,                    //强制4格的缩进
+  "latedef": true,                //true 强制行声名后使用
+  "newcap": true,                 //true 强制构造函数首字母大写，创建强制使用new
+  "noarg": true,                  //true 禁止arguments.caller和arguments.callee的使用
+  "noempty": true,                //true 禁止出现空的代码块
+  "nonew": true,                  //true 禁止构造器不传入参数
+  "quotmark": "single",           //使用引号一致性
+  "undef": true,                  //true 要求所有的非全局变量，在使用前都被声明 
+  "unused": true,                 //true 禁止声明变量,但不使用
+  "strict": true,                 //true 要求你使用use strict;语法
+  "trailing": true,               //true 禁止代码后有空白
+  "eqnull": true,                 //true 允许使用== null作比较
+  "es5": true,                    //true 坚持的ECMAScript 5规范
+  "browser": true,                //true 环境变量,使用最新的浏览器
+  "devel": true,                  //true 环境变量,支持调试语句
+  "jquery": true,                 //true 环境变量,支持jquery库
+  "node": true,                   //环境变量,支持node环境
+  "predef": ["seajs", "define"],  //自定义变量
+  "white": false
+}
